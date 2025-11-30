@@ -2,6 +2,7 @@ import Image from "next/image";
 import { HeroSection } from "@/components/home/HeroSection";
 import { AboutSection } from "@/components/home/AboutSection";
 import { ProgramSection } from "@/components/home/ProgramSection";
+import { ProcessSection } from "@/components/home/ProcessSection";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <HeroSection />
       <AboutSection />
       <ProgramSection />
+      <ProcessSection />
     </div>
   );
 }
